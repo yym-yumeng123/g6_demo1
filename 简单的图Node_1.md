@@ -2,7 +2,7 @@
 interface GraphData {
   nodes?: NodeConfig[] // 节点
   edges?: EdgeCOnfig[] // 边
-  combos?: ComboConfig[]
+  groups?: GroupConfig[] // 分组
 }
 
 const data = {
